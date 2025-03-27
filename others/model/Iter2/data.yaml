@@ -1,0 +1,20 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 15
+names: ['SD Hub',
+'RH Axle',
+'Bell Crank',
+'Diff Cover',
+'Econodo LH',
+'Econodo RH',
+'Spring Trunion',
+'Brake Drum 3711',
+'Brake Drum 1918',
+'Suspension Pivot',
+'Carrier Housing 3705',
+'Eicher Brake Drum 7301',
+'Eicher Brake Drum 7664',
+'Eicher Brake Drum 6723',
+'Eicher Brake Drum 1407']

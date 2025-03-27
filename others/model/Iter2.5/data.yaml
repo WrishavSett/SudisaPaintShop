@@ -1,0 +1,23 @@
+
+train: /content/drive/MyDrive/Data-Core/sudisa/PaintShopIter2.5_Split/train/images
+val: /content/drive/MyDrive/Data-Core/sudisa/PaintShopIter2.5_Split/val/images
+test: /content/drive/MyDrive/Data-Core/sudisa/PaintShopIter2.5_Split/test/images
+
+nc: 15  # Number of classes
+names: [
+  'bellCrank',
+  'brakeDrum1918',
+  'brakeDrum3711',
+  'carrierHousing3705',
+  'diffCover',
+  'econodoLH',
+  'econodoRH',
+  'eicherBrakeDrum1407',
+  'eicherBrakeDrum6723',
+  'eicherBrakeDrum7301',
+  'eicherBrakeDrum7664',
+  'rhAxle',
+  'sdHub',
+  'springTrunion',
+  'suspensionPivot'
+]  # Class names

@@ -1,0 +1,69 @@
+{
+  "categories": [
+    {
+      "id": 0,
+      "name": "Bell Crank"
+    },
+    {
+      "id": 1,
+      "name": "Brake Drum 1918"
+    },
+    {
+      "id": 2,
+      "name": "Brake Drum 3711"
+    },
+    {
+      "id": 3,
+      "name": "Carrier Housing 3705"
+    },
+    {
+      "id": 4,
+      "name": "Diff Cover"
+    },
+    {
+      "id": 5,
+      "name": "Econodo LH"
+    },
+    {
+      "id": 6,
+      "name": "Econodo RH"
+    },
+    {
+      "id": 7,
+      "name": "Eicher Brake Drum 1407"
+    },
+    {
+      "id": 8,
+      "name": "Eicher Brake Drum 6723"
+    },
+    {
+      "id": 9,
+      "name": "Eicher Brake Drum 7301"
+    },
+    {
+      "id": 10,
+      "name": "Eicher Brake Drum 7664"
+    },
+    {
+      "id": 11,
+      "name": "RH Axle"
+    },
+    {
+      "id": 12,
+      "name": "SD Hub"
+    },
+    {
+      "id": 13,
+      "name": "Spring Trunion"
+    },
+    {
+      "id": 14,
+      "name": "Suspension Pivot"
+    }
+  ],
+  "info": {
+    "year": 2024,
+    "version": "1.0",
+    "contributor": "Label Studio"
+  }
+}

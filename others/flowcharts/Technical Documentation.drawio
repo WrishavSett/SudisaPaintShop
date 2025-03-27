@@ -1,0 +1,169 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.3">
+  <diagram name="Page-1" id="NKpa55t0eFvvKXAbas4-">
+    <mxGraphModel dx="1600" dy="657" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PNeIOZ-tV8rv02C4SWyw-1" value="Video from the Surveillance feed is captured" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PNeIOZ-tV8rv02C4SWyw-2" value="AI Engine" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PNeIOZ-tV8rv02C4SWyw-3" value="AI Based Object Detection" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PNeIOZ-tV8rv02C4SWyw-4" value="On detection, objects are tracked and counted" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PNeIOZ-tV8rv02C4SWyw-7" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="240" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PNeIOZ-tV8rv02C4SWyw-8" value="End" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="240" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PNeIOZ-tV8rv02C4SWyw-10" value="Names of Detected Objects and their individual count is acquired from AI Engine" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="200" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="PNeIOZ-tV8rv02C4SWyw-11" value="Data Storage" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PNeIOZ-tV8rv02C4SWyw-12" value="Data is stored in a Database for fetching later" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PNeIOZ-tV8rv02C4SWyw-14" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="440" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PNeIOZ-tV8rv02C4SWyw-15" value="End" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="440" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PNeIOZ-tV8rv02C4SWyw-16" value="Data from databasse is fetched and displayed for the user" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PNeIOZ-tV8rv02C4SWyw-17" value="Dashboard" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PNeIOZ-tV8rv02C4SWyw-18" value="Select date and time range to view data or download a report" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PNeIOZ-tV8rv02C4SWyw-19" value="All the data for the required time period will be provided" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PNeIOZ-tV8rv02C4SWyw-20" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="640" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PNeIOZ-tV8rv02C4SWyw-21" value="End" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="640" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PNeIOZ-tV8rv02C4SWyw-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="PNeIOZ-tV8rv02C4SWyw-7" target="PNeIOZ-tV8rv02C4SWyw-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="110" as="sourcePoint" />
+            <mxPoint x="310" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PNeIOZ-tV8rv02C4SWyw-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PNeIOZ-tV8rv02C4SWyw-1" target="PNeIOZ-tV8rv02C4SWyw-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="373" y="260" as="sourcePoint" />
+            <mxPoint x="373" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PNeIOZ-tV8rv02C4SWyw-25" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PNeIOZ-tV8rv02C4SWyw-3" target="PNeIOZ-tV8rv02C4SWyw-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="750" y="270" as="sourcePoint" />
+            <mxPoint x="800" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PNeIOZ-tV8rv02C4SWyw-26" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="PNeIOZ-tV8rv02C4SWyw-4" target="PNeIOZ-tV8rv02C4SWyw-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="750" y="370" as="sourcePoint" />
+            <mxPoint x="800" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PNeIOZ-tV8rv02C4SWyw-27" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PNeIOZ-tV8rv02C4SWyw-14" target="PNeIOZ-tV8rv02C4SWyw-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="220" as="sourcePoint" />
+            <mxPoint x="440" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PNeIOZ-tV8rv02C4SWyw-28" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PNeIOZ-tV8rv02C4SWyw-10" target="PNeIOZ-tV8rv02C4SWyw-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="570" as="sourcePoint" />
+            <mxPoint x="550" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PNeIOZ-tV8rv02C4SWyw-29" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="PNeIOZ-tV8rv02C4SWyw-12" target="PNeIOZ-tV8rv02C4SWyw-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="560" as="sourcePoint" />
+            <mxPoint x="560" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PNeIOZ-tV8rv02C4SWyw-30" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PNeIOZ-tV8rv02C4SWyw-20" target="PNeIOZ-tV8rv02C4SWyw-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="870" y="260" as="sourcePoint" />
+            <mxPoint x="920" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PNeIOZ-tV8rv02C4SWyw-31" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="PNeIOZ-tV8rv02C4SWyw-16" target="PNeIOZ-tV8rv02C4SWyw-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="870" y="320" as="sourcePoint" />
+            <mxPoint x="920" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PNeIOZ-tV8rv02C4SWyw-32" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="PNeIOZ-tV8rv02C4SWyw-18" target="PNeIOZ-tV8rv02C4SWyw-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="920" y="380" as="sourcePoint" />
+            <mxPoint x="970" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PNeIOZ-tV8rv02C4SWyw-33" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="PNeIOZ-tV8rv02C4SWyw-19" target="PNeIOZ-tV8rv02C4SWyw-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="850" y="440" as="sourcePoint" />
+            <mxPoint x="900" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PNeIOZ-tV8rv02C4SWyw-34" value="Set the Product List for the Database" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PNeIOZ-tV8rv02C4SWyw-35" value="Master Data Setup" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PNeIOZ-tV8rv02C4SWyw-36" value="Update the product list with Product Names and ID&#39;s" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PNeIOZ-tV8rv02C4SWyw-37" value="Set the Camera names and their IP addresses" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PNeIOZ-tV8rv02C4SWyw-38" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="40" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PNeIOZ-tV8rv02C4SWyw-39" value="End" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="40" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PNeIOZ-tV8rv02C4SWyw-40" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PNeIOZ-tV8rv02C4SWyw-38" target="PNeIOZ-tV8rv02C4SWyw-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="260" as="sourcePoint" />
+            <mxPoint x="320" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PNeIOZ-tV8rv02C4SWyw-41" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="PNeIOZ-tV8rv02C4SWyw-34" target="PNeIOZ-tV8rv02C4SWyw-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="320" as="sourcePoint" />
+            <mxPoint x="320" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PNeIOZ-tV8rv02C4SWyw-42" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="PNeIOZ-tV8rv02C4SWyw-36" target="PNeIOZ-tV8rv02C4SWyw-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="380" as="sourcePoint" />
+            <mxPoint x="370" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PNeIOZ-tV8rv02C4SWyw-43" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="PNeIOZ-tV8rv02C4SWyw-37" target="PNeIOZ-tV8rv02C4SWyw-39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="440" as="sourcePoint" />
+            <mxPoint x="300" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,11 @@
+__pycache__/
+venv/
+msv1.mp4
+notebooks/vehicle-counting.mp4
+products/
+output_recordings/
+others/paintshopiter1.zip
+others/paintshopiter2.zip
+others/model/Iter2.5/PaintShopIter2.5.zip
+*.mp4
+*.avi
